@@ -3,9 +3,10 @@
 
 .color1{color:#1BBC9B}/*MOUNTAIN MEADOW*/
 .color2{color:#C0392B/*TALL POPPY*/}
+
 body {
 	font-family: 'Indie Flower', cursive !important;
-  background: #FDE3A7; /*CAPE HONEY*/
+	background: #FDE3A7; /*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
 }
@@ -153,7 +154,7 @@ a:active {
 }
 
 #mensagem {
-	width: 400px;
+	width: 300px;
 	border-top: solid 2px #013243;
 	justify-self: center;
 	font-family: 'Amatic SC', cursive !important;
