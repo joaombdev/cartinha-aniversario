@@ -166,3 +166,23 @@ a:active {
 	font-size: 32px;
 	margin-left: 20px;
 }
+
+.deck {
+	display: flex;
+	justify-self: center;
+	gap: 20px;
+	margin-bottom: 100%;
+}
+
+.gift {
+	border: dotted 2px black;
+	width: 200px;
+}
+
+.giftBack {
+	display: block;
+}
+
+.giftFront {
+	display: none;
+}
