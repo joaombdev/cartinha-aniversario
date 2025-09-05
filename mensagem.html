@@ -27,31 +27,65 @@
             <li>O seu abraço</li>
             <li>O seu beijo 😘</li>
         </ul>
-        <p>Agora você pode "escolher" um presente para você, mas o presente é surpresa, só saberá após virar a carta.</p>
-        <section class="deck">
-            <div class="gift" data-id="1">
-                <div class="giftBack">Presente 1</div>
-                <div class="giftFront">Vale R$300 para gastarmos juntos!!!</div>
-            </div>
-            <div class="gift" data-id="2">
-                <div class="giftBack">Presente 2</div>
-                <div class="giftFront">Um jantar romântico</div>
-            </div>
-            <div class="gift" data-id="3">
-                <div class="giftBack">Presente 3</div>
-                <div class="giftFront">Beijos e abraços no desenvolvedor deste site</div>
-            </div>
-            <div class="gift" data-id="4">
-                <div class="giftBack">Presente 4</div>
-                <div class="giftFront">SORTE GRANDE, todos os presentes juntos!</div>
-            </div>
-        </section>
+        <p>Agora tu pode "escolher" um presente, mas o presente é surpresa, só saberá após virar a carta.
+        </p>
     </main>
+    <section id="scroll" class="deck">
+        <div class="gift" data-id="1">
+            <div class="giftBack">
+                <img src="img/closed-lines.png" alt="">
+                <p>Presente 1</p>
+            </div>
+            <div class="giftFront">
+                <img src="img/opened-heart-pink-line.png" alt="">
+                <p>Vale R$300 para gastarmos juntos!!!</p>
+            </div>
+        </div>
+        <div class="gift" data-id="2">
+            <div class="giftBack">
+                <img src="img/closed-lines.png" alt="">
+                <p>Presente 2</p>
+            </div>
+            <div class="giftFront">
+                <img src="img/opened-heart-pink-line.png" alt="">
+                <p>Um jantar romântico</p>
+            </div>
+        </div>
+        <div class="gift" data-id="3">
+            <div class="giftBack">
+                <img src="img/closed-lines.png" alt="">
+                <p>Presente 3</p>
+            </div>
+            <div class="giftFront">
+                <img src="img/opened-heart-pink-line.png" alt="">
+                <p>Beijos e abraços no desenvolvedor deste site</p>
+            </div>
+        </div>
+        <div class="gift" data-id="4">
+            <div class="giftBack">
+                <img src="img/closed-lines.png" alt="">
+                <p>Presente 4</p>
+            </div>
+            <div class="giftFront">
+                <img src="img/opened-heart-pink-line.png" alt="">
+                <p>SORTE GRANDE, todos os presentes juntos!</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <h1>Desenvolvido por João Borges © 2025</h1>
     </footer>
     <script src="mensagem.js"></script>
+    <script>
+        function onLoad() {
+            window.addEventListener("load", () => {
+                document.getElementById('scroll').scrollIntoView();
+                console.log('scrool')
+            })
+        }
+        onLoad()
+    </script>
 </body>
 
 </html>
