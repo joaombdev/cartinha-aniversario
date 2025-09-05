@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
-.color1{color:#1BBC9B}/*MOUNTAIN MEADOW*/
-.color2{color:#C0392B/*TALL POPPY*/}
+.color1 {
+	color: #1BBC9B
+}
+
+/*MOUNTAIN MEADOW*/
+.color2 {
+	color: #C0392B
+		/*TALL POPPY*/
+}
 
 body {
 	font-family: 'Indie Flower', cursive !important;
-	background: #FDE3A7; /*CAPE HONEY*/
+	background: #FDE3A7;
+	/*CAPE HONEY*/
 	margin: 0px;
 	padding: 0px;
 }
@@ -15,7 +23,8 @@ body {
 	background: transparent;
 }
 
-h1, h4{
+h1,
+h4 {
 	font-size: 26px;
 	line-height: 1px;
 	font-family: 'Amatic SC', cursive !important;
@@ -28,7 +37,8 @@ header {
 }
 
 .card {
-	color: #013243; /*SHERPA BLUE*/
+	color: #013243;
+	/*SHERPA BLUE*/
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -36,13 +46,13 @@ header {
 	height: 400px;
 	background: #e0e1dc;
 	transform-style: preserve-3d;
-	transform: translate(-50%,-50%) perspective(2000px);
-	box-shadow: inset 300px 0 50px rgba(0,0,0,.5), 20px 0 60px rgba(0,0,0,.5);
+	transform: translate(-50%, -50%) perspective(2000px);
+	box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5), 20px 0 60px rgba(0, 0, 0, .5);
 	transition: 1s;
 }
 
 .card:before {
-	content:'';
+	content: '';
 	position: absolute;
 	top: -5px;
 	left: 0;
@@ -88,8 +98,8 @@ header {
 }
 
 .card.open {
-	transform: translate(-50%,-50%) perspective(2000px) rotate(15deg) scale(1.2);
-	box-shadow: inset 20px 0 50px rgba(0,0,0,.5), 0 10px 100px rgba(0,0,0,.5);
+	transform: translate(-50%, -50%) perspective(2000px) rotate(15deg) scale(1.2);
+	box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5), 0 10px 100px rgba(0, 0, 0, .5);
 }
 
 .card.open .imgBox {
@@ -179,10 +189,21 @@ a:active {
 	width: 200px;
 }
 
+.gift:hover {
+	cursor: pointer;
+}
+
 .giftBack {
 	display: block;
 }
 
 .giftFront {
 	display: none;
+}
+
+footer {
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	border: solid black 2px;
 }
