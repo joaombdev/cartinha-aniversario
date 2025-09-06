@@ -218,8 +218,15 @@ a:active {
 	align-items: center;
 }
 
+.gift.revealed .giftBack {display: none;}
+.gift.revealed .giftFront {display: block;}
+
 .giftFront p {
 	margin: 20px 20px;
+}
+
+.giftFront img {
+	margin: 0px 0px 0px 14%;
 }
 
 footer {
