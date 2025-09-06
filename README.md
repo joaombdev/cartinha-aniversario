@@ -1,6 +1,6 @@
 # Site para aniversário
 
-[Link para o site](https://joaombdev.github.io/cartinha-aniversario/)
+[Link para o site](https://tinyurl.com/xofana)
 
 ### Estrutura
 
