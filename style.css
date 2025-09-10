@@ -218,20 +218,33 @@ a:active {
 	align-items: center;
 }
 
-.gift.revealed .giftBack {display: none;}
-.gift.revealed .giftFront {display: block;}
+.gift.revealed .giftBack {
+	display: none;
+}
+
+.gift.revealed .giftFront {
+	display: flex;
+}
 
 .giftFront p {
 	margin: 20px 20px;
 }
 
 .giftFront img {
-	margin: 0px 0px 0px 14%;
+	margin: 0px 0px 0px 0px;
+}
+
+#linkFooter {
+	color: rgb(0, 0, 52);
 }
 
 footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	padding: 1rem;
 	display: flex;
 	justify-content: center;
 	border: solid black 2px;
+	background-color: #d9bd7d;
 }
